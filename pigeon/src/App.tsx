@@ -6,13 +6,12 @@ import Resumo from './Pages/Resumo'
 const App = () => {
   return (
     <div>
-      <Header />
       <Sidenav />
-      <Resumo />
+      <main>
+        <Header />
+        <Resumo />
+      </main>
     </div>
-
-
-
   )
 } 
 
