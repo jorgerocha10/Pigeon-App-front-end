@@ -1,2 +1,0 @@
-FLASK_APP=pigeon_app
-FLASK_ENV=development
