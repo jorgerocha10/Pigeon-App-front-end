@@ -1,9 +1,13 @@
 html {
-  --color-1: #463220;
-  --color-2: #66593c;
   --color-3: #eceadd;
   --color-4: #f7f8f5;
   --color-5: #ffffff;
+  --color-6: #4f5876;
+  --color-7: #2f6788;
+  --color-8: #7b7575;
+  --color-9: #de8074;
+  --color-10: #F0F0F5;
+  --color-11: #003B4A;
   --background-color: #F9F9FE;
   --gap-s: 0.625rem;
   --gap: 1.25rem;
@@ -66,7 +70,7 @@ ul {
 }
 
 .bg-3 {
-  background: var(--background-color);
+  background: var(--color-10);
 }
 
 .bg-4 {
@@ -75,6 +79,12 @@ ul {
 
 .bg-5 {
   background: var(--color-5);
+}
+
+.main{
+  background: var(--color-10); 
+  padding: var(--gap);
+  border-radius: var(--gap);
 }
 
 .container {
