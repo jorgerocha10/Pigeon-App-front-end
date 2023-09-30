@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Componentes/Header'
 import Sidenav from './Componentes/Sidenav'
-import Resumo from './Pages/Resumo'
+import Resumo from './Pages/Dashboard'
 import { DataContextProvider } from './Context/DataContext'
 
 const App = () => {
@@ -9,7 +9,8 @@ const App = () => {
     <DataContextProvider>
       <div className='container'>
         <Sidenav />
-        <main>
+        <main className='main'>
+          <Header/>
           {/* <Header />
           <Resumo /> */}
         </main>
