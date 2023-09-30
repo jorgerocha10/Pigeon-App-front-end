@@ -3,7 +3,7 @@ import React from 'react'
 
 const cssStyle : React.CSSProperties = {
   // para add codigo css
-}
+} 
 
 type IDateInput = React.ComponentProps<'input'> & {
   label: string
