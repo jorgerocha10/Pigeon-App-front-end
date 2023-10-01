@@ -18,7 +18,7 @@ const Navbar = () => {
           </a>
         </span>
         <span>
-          <a className='login' href="/">Login</a>
+          <a className='login' href="/">Jorge</a>
           <a href="">
             <img className='user' src={user} alt='user'></img>
           </a>
