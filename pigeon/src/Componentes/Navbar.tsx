@@ -1,6 +1,7 @@
 import React from 'react'
 import pigeonImg from '../assets/pigeon_vector.png';
 import user from '../assets/user.svg';
+import { NavLink } from 'react-router-dom';
 
 const styleIcons : React.CSSProperties = {
   height: 40,
@@ -19,9 +20,9 @@ const Navbar = () => {
         </span>
         <span>
           <a className='login' href="/">Jorge</a>
-          <a href="">
+          <NavLink to='/signin'>
             <img className='user' src={user} alt='user'></img>
-          </a>
+          </NavLink>
         </span>
         
       </nav>

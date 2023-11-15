@@ -4,6 +4,18 @@
   padding: 2rem;
   text-align: center;
 }
+:root {
+  --color-3: #eceadd;
+  --color-4: #f7f8f5;
+  --color-5: #ffffff;
+  --color-6: #4f5876;
+  --color-7: #2f6788;
+  --color-8: #7b7575;
+  --color-9: #de8074;
+  --color-10: #f0f0f5;
+  --color-11: #003b4a;
+}
+
 
 .logo {
   height: 6em;

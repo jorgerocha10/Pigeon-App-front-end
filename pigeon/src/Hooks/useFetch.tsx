@@ -11,7 +11,7 @@ function useFetch<T>(url: RequestInfo | URL, options?: RequestInit) {
   React.useEffect(() => {
     const controller = new AbortController();
     const { signal } = controller;
-
+3   
     const fetchData = async () => {
       setLoading(true);
       setData(null);
